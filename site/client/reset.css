@@ -1,0 +1,33 @@
+/* Сброс стилей для устранения дефолтных отступов и padding */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-size: 100%;
+    line-height: 1.4;
+}
+
+/* Сброс для тегов */
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Убираем дефолтные отступы и поля у таблиц */
+table {
+    border-collapse: collapse;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
